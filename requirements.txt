@@ -1,0 +1,10 @@
+streamlit
+google-generativeai
+langchain
+PyPDF2
+faiss-cpu
+langchain_google_genai
+langchain-community
+beautifulsoup4
+youtube-transcript-api
+python-dotenv
