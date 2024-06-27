@@ -4,7 +4,7 @@ Talk2YTube is an innovative AI-powered chatbot designed to provide insightful an
 
 ![Talk2YTube Screenshot](./talk2YTube_screenshot.png)
 
-Visit the live app: [Talk2YTube](https://talk2csv.onrender.com/)
+Visit the live app: [Talk2YTube](https://talk2ytube-6bjiqebpjb6if4r7apgxih.streamlit.app/)
 
 ## Features
 
