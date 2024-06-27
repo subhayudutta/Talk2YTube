@@ -7,12 +7,16 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
-api_key = os.getenv('GOOGLE_API_KEY')
-os.environ['GOOGLE_API_KEY'] = api_key
-genai.configure(api_key=api_key)
+# load_dotenv()
+# api_key = os.getenv('GOOGLE_API_KEY')
+# os.environ['GOOGLE_API_KEY'] = api_key
+# genai.configure(api_key=api_key)
+
+api_key1 = st.secrets["google_api_key"]
+os.environ['GOOGLE_API_KEY'] = api_key1
+genai.configure(api_key=api_key1)
 
 def get_youtube_video_id(url):
     if "watch?v=" in url:
